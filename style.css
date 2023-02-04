@@ -1,0 +1,81 @@
+body {
+  background-color: aliceblue;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.notification-container {
+  background-color: white;
+  height: 750px;
+  width: 600px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+img {
+  width: 35px;
+  margin-right: 10px;
+}
+.blue {
+  background-color: blue;
+  color: white;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  border: radius 3px;
+  position: relative;
+  left: 20px;
+}
+time {
+  position: relative;
+  left: 380px;
+  color: hsl(219, 12%, 42%);
+}
+.chess img {
+  position: relative;
+  left: 500px;
+  bottom: 30px;
+}
+p {
+  color: gray;
+  font-size: 14px;
+}
+.notification-chat {
+  margin: 3px;
+  border-radius: 5px;
+  padding: 10px;
+  padding-bottom: 2px;
+  background-color: hsl(204, 28%, 93%);
+  color: hsl(219, 12%, 42%);
+}
+.notification-chat p {
+  position: relative;
+  bottom: 90px;
+}
+.chat {
+  width: 500px;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 55px;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: hsl(219, 12%, 42%);
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+}
+.gray {
+  color: rgb(150, 87, 87);
+}
+.Read {
+  color: rgb(163, 134, 134);
+}
+base {
+  color: blue;
+}
